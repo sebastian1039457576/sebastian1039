@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <script src="app.js" async></script>
+    <title>TIENDA ENVIOS | </title>
+</head>
+<body>
+    <header>
+        <h1>NEXT CLOCK TIME</h1>
+        
+    </header>
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">ENVIOS INTENACIONAL GPS</span>
+                <img src="img/gps1.jfif" alt="" class="img-item">
+                <span class="precio-item">$15.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">ENVIOS FEDEX</span>
+                <img src="img/fedexinicio.png" alt="" class="img-item">
+                <span class="precio-item">$25.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">DESTINOS INTENACIONAL</span>
+                <img src="img/gps2.webp" alt="" class="img-item">
+                <span class="precio-item">$35.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            
+            
+            
+           
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+                <!-- 
+                <div class="carrito-item">
+                    <img src="img/boxengasse.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Box Engasse</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$15.000,00</span>
+                    </div>
+                   <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </span>
+                </div>
+                <div class="carrito-item">
+                    <img src="img/skinglam.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Skin Glam</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$18.000,00</span>
+                    </div>
+                   <button class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </button>
+                </div>
+                 -->
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+    <nav>
+        
+          
+      
+      <form id="trackForm">
+        <label for="trackingNumber">Introduce tu número de rastreo:</label>
+        <input type="text" id="trackingNumber" placeholder="Número de rastreo">
+        <button type="submit">Rastrear</button>
+      </form>
+    
+      
+      <div id="map" style="height: 400px;">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=..."></iframe>
+      </div>
+    
+      
+      <div id="packageStatus">
+        <h2>Estado del Paquete:</h2>
+        <p><strong>Última ubicación:</strong> [Ubicación Actual]</p>
+        <p><strong>Estado:</strong> [Estado del paquete: En tránsito, Entregado, etc.]</p>
+        <p><strong>Fecha estimada de entrega:</strong> [Fecha]</p>
+      
+    
+    
+          
+          
+    <button id="openModalBtn">Ver Detalles del Envío</button>
+    
+    
+    <div id="modalEnvio" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Detalles del Paquete</h2>
+        <p><strong>Remitente:</strong> </p>
+        <p><strong>País de origen:</strong> </p>
+        <p><strong>Destino:</strong></p>
+        <p><strong>Contenido del paquete:</strong> </p>
+        <p><strong>Estado actual:</strong> En tránsito</p>
+        <p><strong>Última ubicación:</strong> [Ubicación Actual]</p>
+      </div>
+    </div>
+          <section id="jobs">
+      <h1>Oportunidades de Trabajo en next clock time Estados Unidos</h1>
+      <p>
+        ¿Buscas una oportunidad laboral en Estados Unidos? En next clock time, siempre estamos en busca de 
+        personas talentosas y apasionadas que quieran ser parte de un equipo global. 
+        Ofrecemos una amplia gama de puestos en logística, administración y tecnología. 
+        ¡Explora tus posibilidades y postúlate hoy para unirte a nuestro equipo dinámico y en crecimiento!
+      </p>
+      <p>
+        <strong>Beneficios de trabajar en FedEx:</strong>
+        <ul>
+          <li>Seguro médico y dental</li>
+          <li>Oportunidades de crecimiento profesional</li>
+          <li>Ambiente de trabajo inclusivo</li>
+          <li>Plan de retiro y otros beneficios</li>
+        </ul>
+      </p>
+      <button type="submit">Aplicar Ahora</button>
+    </section>
+    <section id="contact">
+      <h1>Información del Usuario y Paquete</h1>
+      <form id="packageForm">
+        <div class="form-group">
+          <label for="nombre">Nombre Completo:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo">
+        </div>
+    
+        <div class="form-group">
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" placeholder="Tu correo electrónico">
+        </div>
+    
+        <div class="form-group">
+          <label for="numeroRastreo">Número de Rastreo:</label>
+          <input type="text" id="numeroRastreo" name="numeroRastreo" placeholder="Número de seguimiento">
+        </div>
+    
+        <div class="form-group">
+          <label for="detallesPaquete">Detalles del Paquete:</label>
+          <textarea id="detallesPaquete" name="detallesPaquete" placeholder="Especifica el contenido del paquete"></textarea>
+        </div>
+    
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+</body>
+</html>
